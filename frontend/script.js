@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // const API_URL = "https://my-qr-api.onrender.com/generate"; // **IMPORTANT: REMEMBER TO UPDATE THIS FOR DEPLOYMENT**
-    const API_URL = "http://127.0.0.1:5000/generate";
+    const API_URL = "https://qr-code-generator-qpm1.onrender.com"; // **IMPORTANT: REMEMBER TO UPDATE THIS FOR DEPLOYMENT**
+    // const API_URL = "http://127.0.0.1:5000/generate";
 
     const generateBtn = document.getElementById("generate-btn");
     const urlInput = document.getElementById("url-input");
